@@ -1,7 +1,7 @@
 Installations needed for the project <br>
 Install Node.js <br>
-Install Express Framework \n
-Install Bootstrap3.0
-Install JQuery
-npm install nodemon
-npm install twit
+Install Express Framework <br>
+Install Bootstrap3.0 <br>
+Install JQuery <br>
+npm install nodemon <br>
+npm install twit <br>
