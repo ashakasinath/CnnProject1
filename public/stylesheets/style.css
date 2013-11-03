@@ -1,0 +1,15 @@
+body.container {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
+    background-position: left 40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-color: #C0DEED;
+}
+
+
+a {
+  color: #00B7FF;
+}

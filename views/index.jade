@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h3.text-center  List of 10 tweets
+  each item in tweets
+     div.col-sm-6
+        div.media
+            a.pull-left(href='#')
+                img.media-object(src='#{item.user.profile_image_url}')
+            div.media-body
+                h4.media-heading @#{item.user.screen_name}
+                //- var text = item.text;
+                //- var textArray[] = text.split(http://);
+                //- var url = "http://" + textArray[1];
+                //- var p = document.createElement('p');
+                //- p.innerHTML = textArray[0];
+                //- var a = document.createElement('a');
+                //- a.Attributes.Add("href",url);
+                //- p.appendChild(a);
+                p #{item.text}
+                //p #{textArray[0]}
+                //    a(href='#{url}') LINK
+
+
